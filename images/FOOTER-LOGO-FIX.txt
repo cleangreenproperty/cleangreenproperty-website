@@ -1,0 +1,67 @@
+FOOTER LOGO FIX - ADD THIS TO ALL PAGES
+
+═══════════════════════════════════════════════════════════════
+
+THE LOGO NEEDS TO BE ADDED TO THE FOOTER "Contact" SECTION
+UNDER THE PHONE NUMBER ON ALL PAGES (HOME + 6 SERVICE PAGES)
+
+═══════════════════════════════════════════════════════════════
+
+CURRENT CODE (MISSING LOGO):
+────────────────────────────────────────────────────────────────
+<div class="footer-col">
+    <h4>Contact</h4>
+    <p>807 Waukegan Rd Suite 123<br>Deerfield, IL 60015</p>
+    <p><a href="mailto:info@cleangreenproperty.com">Info@CleanGreenProperty.com</a></p>
+    <p><a href="tel:8472208552">(847) 220-8552</a></p>
+</div>
+
+═══════════════════════════════════════════════════════════════
+
+NEW CODE (WITH LOGO):
+────────────────────────────────────────────────────────────────
+
+FOR HOME PAGE (index.html):
+────────────────────────────────────────────────────────────────
+<div class="footer-col">
+    <h4>Contact</h4>
+    <p>807 Waukegan Rd Suite 123<br>Deerfield, IL 60015</p>
+    <p><a href="mailto:info@cleangreenproperty.com">Info@CleanGreenProperty.com</a></p>
+    <p><a href="tel:8472208552">(847) 220-8552</a></p>
+    <img src="images/logo.png" alt="Clean & Green Property Care Logo" style="width: 120px; margin-top: 20px;">
+</div>
+
+FOR SERVICE PAGES (all 6 service pages):
+────────────────────────────────────────────────────────────────
+<div class="footer-col">
+    <h4>Contact</h4>
+    <p>807 Waukegan Rd Suite 123<br>Deerfield, IL 60015</p>
+    <p><a href="mailto:Info@CleanGreenProperty.com">Info@CleanGreenProperty.com</a></p>
+    <p><a href="tel:8472208552">(847) 220-8552</a></p>
+    <img src="../images/logo.png" alt="Clean & Green Property Care Logo" style="width: 120px; margin-top: 20px;">
+</div>
+
+═══════════════════════════════════════════════════════════════
+
+NOTICE THE DIFFERENCE:
+- Home page uses: src="images/logo.png"
+- Service pages use: src="../images/logo.png" (with ../ to go up one folder)
+
+═══════════════════════════════════════════════════════════════
+
+PAGES TO UPDATE:
+✓ index.html (home page)
+✓ services/landscaping.html
+✓ services/power-washing.html
+✓ services/gutter-cleaning.html
+✓ services/paver-restoration.html
+✓ services/holiday-lights.html
+✓ services/snow-removal.html
+
+═══════════════════════════════════════════════════════════════
+
+IMPORTANT: This fix requires editing the HTML files on GitHub.
+After uploading all the images, you'll need to edit each HTML file
+to add the logo line.
+
+═══════════════════════════════════════════════════════════════

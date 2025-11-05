@@ -1,0 +1,67 @@
+MISSING IMAGES - UPLOAD TO GITHUB
+
+═══════════════════════════════════════════════════════════════
+
+STEP 1: UPLOAD ALL IMAGES TO GITHUB
+────────────────────────────────────────────────────────────────
+
+1. Go to: https://github.com/cleangreenproperty/CleanGreenProperty-Website
+2. Click on the "images" folder
+3. Click "Add file" → "Upload files"
+4. Drag ALL the image files from this folder (NOT the subfolders, just the root files):
+   - hero-bannockburn.webp
+   - logo.png
+   - logo-white.png
+   - landscaping-service-new.jpg
+   - gutters-service-FIXED.jpg
+   - pavers-service-FIXED.jpg
+   - gallery-landscaping.jpg
+   - gallery-gutters.jpg
+   - gallery-pavers.png
+   - gallery-powerwash.jpg
+   - gallery-holiday.jpg
+   - gallery-snow.jpg
+
+5. Scroll down and click "Commit changes"
+
+═══════════════════════════════════════════════════════════════
+
+STEP 2: UPLOAD SERVICE PAGE IMAGES
+────────────────────────────────────────────────────────────────
+
+LANDSCAPING IMAGES:
+1. Go back to the "images" folder on GitHub
+2. Click "Add file" → "Upload files"
+3. Drag all 8 files from the "landscaping" subfolder
+4. Commit changes
+
+GUTTERS IMAGES:
+1. Go back to the "images" folder on GitHub
+2. Click "Add file" → "Upload files"  
+3. Drag all 3 files from the "gutters" subfolder
+4. Commit changes
+
+PAVERS IMAGES:
+1. Go back to the "images" folder on GitHub
+2. Click "Add file" → "Upload files"
+3. Drag all 4 files from the "pavers" subfolder
+4. Commit changes
+
+═══════════════════════════════════════════════════════════════
+
+STEP 3: WAIT FOR VERCEL TO REDEPLOY
+────────────────────────────────────────────────────────────────
+
+After you commit the images, Vercel will automatically rebuild your site.
+This takes 1-2 minutes.
+
+Then check: https://clean-green-property-website.vercel.app
+
+═══════════════════════════════════════════════════════════════
+
+IMPORTANT NOTES:
+- The logo and header should appear correctly after this upload
+- If images still don't show, do a hard refresh: Ctrl+Shift+R (Windows) or Cmd+Shift+R (Mac)
+- All service pages should now have their galleries filled
+
+═══════════════════════════════════════════════════════════════
